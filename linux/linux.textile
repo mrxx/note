@@ -7,9 +7,9 @@
 6，在打包时如何不包含某些文件
      ＃ tar cvf test.tar.gz  /tmp/test    --exclude  /tmp/test/test2/test1
 7，关于sed替换文件
-      ＃ sed -i 's/cupc1.com/cupc1.net/g' `grep 'cupc1.com' -rl ./`
+       sed -i 's/cupc1.com/cupc1.net/g' `grep 'cupc1.com' -rl ./`
 8，关于用curl远程执行安装 sh文件 
-      # curl http://www.mongtaydu.com/download/install_baner.txt |sh
+      curl http://www.mongtaydu.com/download/install_baner.txt |sh
 9，wget 保存文件到本地目录 
      wget 'http://xxx.xxx'  -P ./script/
 10，linux 替换命令，用 tr
