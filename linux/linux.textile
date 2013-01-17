@@ -1,0 +1,24 @@
+1，怎么做一个命令行运行的程序，类似与wget或curl？
+2，编译器的原理？怎么设计一个自己的编译器
+3，编辑器原理？
+4，文件安装后的目录？如何安装一个完整的程序，如何卸载一个完整的程序？
+5，crontab 直接写在文件中的位置是?
+     /var/spool/cron/root 中
+6，在打包时如何不包含某些文件
+     ＃ tar cvf test.tar.gz  /tmp/test    --exclude  /tmp/test/test2/test1
+7，关于sed替换文件
+      ＃ sed -i 's/cupc1.com/cupc1.net/g' `grep 'cupc1.com' -rl ./`
+8，关于用curl远程执行安装 sh文件 
+      # curl http://www.mongtaydu.com/download/install_baner.txt |sh
+9，wget 保存文件到本地目录 
+     wget 'http://xxx.xxx'  -P ./script/
+10，linux 替换命令，用 tr
+     用法  tr 'xxx' 'ccc' <test.txt 
+11，sort命令
+     sort -t' ' k -1 xxx.txt 用第一列进行排序
+12，debain修改主机名
+     修改 /etc/hostname 然后 $sudo /etc/init.d/hostname.sh start
+13，自定义脚步命令
+     修改 /etc/bashrc 添加 alias t='/data/soft/google-translate/trans.py' 
+14，在本地vim编辑服务器代码
+     使用sspfs mount 到本地 ，删除挂载用 umount 
