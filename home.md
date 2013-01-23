@@ -1,4 +1,5 @@
 ### Here comes the sun<br>
+[Algorithm](/Algorithm/)<br>
 [linux](/linux/)<br>
 [git](/git/)<br>
 [nginx](/nginx/)<br>
