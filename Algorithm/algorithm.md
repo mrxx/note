@@ -4,4 +4,3 @@
 2. The white hat and black hat problem
 3. [The Chinese chess problem](chinese-chess-problem)
 4. [The Binary problem](binary-problem)
-5. [The max K number of N](max-k-number-of-n)
