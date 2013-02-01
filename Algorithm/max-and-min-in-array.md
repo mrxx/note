@@ -9,6 +9,18 @@
 
 ```
 <?php
+$arr = explode("\n",file_get_contents("../data/num.data"));
+$max = $min = 0;
+for($i=2;$i<count($arr);$i+=2){
+        if(!empty($arr[$i]) && $arr[$i]<$arr[$i-1])
+        {
+                $tmp = $arr[$i];$arr[$i]=$arr[$i-1];$arr[$i-1]=$arr[$i];
+        }
+        $max = $arr[$i]>$max ? $arr[$i] : $max;
+        $min = $arr[$i-1]<$min ? $arr[$i-1] : $min;
+
+}
+echo "max=$max \n min=$min \n";
 
 ?>
 ```
