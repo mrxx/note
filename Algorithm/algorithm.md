@@ -9,3 +9,4 @@
 7. [Find two number in an array](find-two-number-01)
 8. [The string rotate problem](string-rotate-problem)
 9. [Find the longest Increment in array](longest-increment)
+10. [The array cycle problem](array-cycle-problem)
