@@ -1,4 +1,4 @@
-### [algorithm](/algorithm)
+### [algorithm](/algorithm/)
 ### 给定两个数 s1 和 s2 ，要求计算s1 是否可以被 s2 移位所得，比如 s1=aabcdd, s2=ddaabc 则返回 true
 
 1，循环s1 的每个字符，计算是否和s2相等，效率差
