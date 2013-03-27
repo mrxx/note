@@ -6,4 +6,5 @@
 [php](/php/)<br>
 [mysql](/mysql/)<br>
 [mac](/mac/)<br>
+[javascript](/javascript/)<br>
 [links](/links/)<br>
