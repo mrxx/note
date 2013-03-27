@@ -1,4 +1,4 @@
-Eloquent JavaScript
+## [Eloquent JavaScript](http://eloquentjavascript.net/contents.html) ##
 
 Contents
 
